@@ -7,6 +7,8 @@ void testCString();
 int main() {
     std::cout << "Hello, World!" << std::endl;
     testCString();
+    char cstr[] = {'C','+','+'};
+    cout << strlen(cstr) << endl;
     return 0;
 }
 
