@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/_WorkSpace/CLearning/main.cpp
+/home/teddy/CLionProjects/CLearning/main.cpp
 iostream
 -
 string.h
-D:/_WorkSpace/CLearning/string.h
+/home/teddy/CLionProjects/CLearning/string.h
+vector
+-
 

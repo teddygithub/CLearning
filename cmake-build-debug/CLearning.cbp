@@ -8,84 +8,86 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/_WorkSpace/CLearning/cmake-build-debug"/>
+				<Option working_dir="/home/teddy/CLionProjects/CLearning/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/PROGRA~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/_WorkSpace/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="E:/PROGRA~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/_WorkSpace/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/PROGRA~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/_WorkSpace/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/PROGRA~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/_WorkSpace/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="CLearning">
-				<Option output="D:/_WorkSpace/CLearning/cmake-build-debug/CLearning.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/_WorkSpace/CLearning/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="E:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="E:/PROGRA~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/_WorkSpace/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 CLearning"/>
-					<CompileFile command="E:/PROGRA~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/_WorkSpace/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/PROGRA~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/_WorkSpace/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/PROGRA~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/_WorkSpace/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="CLearning/fast">
-				<Option output="D:/_WorkSpace/CLearning/cmake-build-debug/CLearning.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/_WorkSpace/CLearning/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="E:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="E:/PROGRA~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/_WorkSpace/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 CLearning/fast"/>
-					<CompileFile command="E:/PROGRA~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/_WorkSpace/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/PROGRA~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/_WorkSpace/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/PROGRA~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/_WorkSpace/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/_WorkSpace/CLearning/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="E:/PROGRA~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/_WorkSpace/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="E:/PROGRA~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/_WorkSpace/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/PROGRA~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/_WorkSpace/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/PROGRA~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/_WorkSpace/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/teddy/CLionProjects/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teddy/CLionProjects/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/teddy/CLionProjects/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teddy/CLionProjects/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/_WorkSpace/CLearning/cmake-build-debug"/>
+				<Option working_dir="/home/teddy/CLionProjects/CLearning/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/PROGRA~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/_WorkSpace/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="E:/PROGRA~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/_WorkSpace/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/PROGRA~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/_WorkSpace/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/PROGRA~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/_WorkSpace/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/teddy/CLionProjects/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teddy/CLionProjects/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/teddy/CLionProjects/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teddy/CLionProjects/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/teddy/CLionProjects/CLearning/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/teddy/CLionProjects/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teddy/CLionProjects/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/teddy/CLionProjects/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teddy/CLionProjects/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CLearning">
+				<Option output="/home/teddy/CLionProjects/CLearning/cmake-build-debug/CLearning" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/teddy/CLionProjects/CLearning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/teddy/CLionProjects/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 CLearning"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teddy/CLionProjects/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/teddy/CLionProjects/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teddy/CLionProjects/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CLearning/fast">
+				<Option output="/home/teddy/CLionProjects/CLearning/cmake-build-debug/CLearning" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/teddy/CLionProjects/CLearning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/teddy/CLionProjects/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 CLearning/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teddy/CLionProjects/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/teddy/CLionProjects/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teddy/CLionProjects/CLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/_WorkSpace/CLearning/main.cpp">
+		<Unit filename="/home/teddy/CLionProjects/CLearning/main.cpp">
 			<Option target="CLearning"/>
 		</Unit>
-		<Unit filename="D:/_WorkSpace/CLearning/CMakeLists.txt">
+		<Unit filename="/home/teddy/CLionProjects/CLearning/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
